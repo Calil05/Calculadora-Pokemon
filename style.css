@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat");
+
+.inp{
+    font-family: Montserrat;
+    margin-right: 3%;
+    width: 340px; 
+}
+
+.inp-check{
+    margin-left: 0%;
+}
+
+.inp-check02{
+    margin-left: 1%;
+}
+
+.label01{
+    font-family: Montserrat;
+    margin-left: 6%;
+    font-size: 16px;
+}
+
+.label02{
+    font-family: Montserrat;
+    margin-left: 7%;
+    font-size: 16px;
+}
+
+.div01{
+    margin-left: 3%;
+    margin-bottom: 1.5%;
+}
+
+.div-box{
+    width: 100%;
+    height: 100%;
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.div-inicial{
+    background: whitesmoke;
+    justify-content: center;
+}
+
+.box{
+    width: 400px;
+    min-height: 400px;    
+    margin-right: 10px;
+    margin-right: 10px;
+    position: relative;   
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: whitesmoke;
+    border: 1px solid #7c7a7a;
+}
+
+.titulo{
+    font-family: Montserrat;
+    font-size: 40px;
+    text-align: center;
+}
+
+.titulo02{
+    font-family: Montserrat;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.titulo-dano{
+    font-family: Montserrat;
+    font-size: 40px;
+    text-align: center;
+    color: red;
+}
+
+.grande-titulo{
+    font-family: Montserrat;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn{
+    font-family: Montserrat;
+    font-weight: bold;
+    margin-top: 20px; 
+    border-radius: 10pt;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 50px;
+    border-radius: 10pt;
+    border: solid black 2px;
+    color: black;
+}
+
+.btn:hover{
+    background-color: rgb(46, 44, 44);
+    color: whitesmoke;
+    border-color: #000000;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+body{
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+}
